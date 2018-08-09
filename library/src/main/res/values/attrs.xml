@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TriangleTipsView">
+
+        <attr name="triangleLocation" format="enum">
+            <enum name="LEFT" value="1"></enum>
+            <enum name="TOP" value="2"></enum>
+            <enum name="RIGHT" value="3"></enum>
+            <enum name="BOTTOM" value="4"></enum>
+        </attr>
+
+        <attr name="backgroundRadius" format="dimension"/>
+
+        <attr name="triangleHeight" format="dimension"/>
+
+        <attr name="offSetX" format="dimension"/>
+
+        <attr name="offSetY" format="dimension"/>
+    </declare-styleable>
+</resources>
